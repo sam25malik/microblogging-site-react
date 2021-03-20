@@ -1,0 +1,8 @@
+.containerize
+.storybook
+.dockerignore
+cloud
+jest.config.js
+src/**/**/*.stories.tsx
+yard.ts
+tsconfig.tsbuildinfo
