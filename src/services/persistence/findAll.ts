@@ -20,7 +20,7 @@ export const findAll = (client: SupabaseClient) => async (): Promise<
       .from("shouts")
       .select("*")
       .order("createdAt", { ascending: false });
-
+     
     return shouts;
   } catch (cause) {
     throw new VError(

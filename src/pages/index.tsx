@@ -10,7 +10,8 @@
 import React from "react";
 import { styled } from "theme";
 
-import { Greeting } from "components";
+import { Greeting  } from "components";
+import ShoutMain from "../components/ShoutMain/shoutMain";
 
 const Main = styled.main`
   padding-top: ${({ theme }) => theme.space.wide};
@@ -18,7 +19,7 @@ const Main = styled.main`
 
 const IndexPage = () => (
   <Main>
-    <Greeting>Hi 👋🏽</Greeting>
+    <ShoutMain/>
   </Main>
 );
 

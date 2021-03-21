@@ -39,6 +39,7 @@ const resolvers = {
 
         return shouts;
       } catch (err) {
+        console.log('err',err);
         throw new ApolloError(
           "Unable to find all shout",
           "ShoutPersistenceError"

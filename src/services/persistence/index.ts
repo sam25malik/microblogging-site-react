@@ -12,7 +12,7 @@ import { createClient } from "@supabase/supabase-js";
 import { createShout } from "./createShout";
 import { findAll } from "./findAll";
 
-const supabaseUrl = "https://cpmhyhpjbqmsfblushud.supabase.co";
+const supabaseUrl = "https://haujiwfghofrukdtnmyq.supabase.co";
 const supabaseKey = process.env.SUPABASE_KEY;
 
 export const createPersistence = () => {

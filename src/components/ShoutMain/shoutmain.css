@@ -1,0 +1,26 @@
+/* 
+  CSS for the app
+  */
+.shout-form{
+	width:600px;
+	height:200px;
+}
+
+.btn-shout{
+	background-color: green !important;
+	color:white !important;
+	width: 120px !important;
+	height: 50px !important;
+	margin-left:400px !important;
+	margin-top:10px !important;
+}
+
+.timeline{
+	margin-left: 430px;
+}
+
+.timeline-item{
+	width: 550px;
+	margin-top:15px !important;
+	padding: 10px;
+}
