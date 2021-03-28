@@ -41,7 +41,7 @@ const ShoutMain = ({}) => {
 			  method: 'post',
 			  data: {
 			    query: `
-			      mutation CreateBook {
+			      mutation CreateShout {
 				  createShout(contents: "${text}") {
 				    contents
 				  }
