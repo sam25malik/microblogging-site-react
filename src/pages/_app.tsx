@@ -11,7 +11,7 @@ import App from "next/app";
 import Head from "next/head";
 import { ThemeProvider } from "theme";
 import { Resetter } from "components";
-import '../components/Shout/shout.css';
+import '../components/ShoutMain/shoutmain.css';
 import "semantic-ui-css/semantic.min.css";
 
 export default class UI extends App {
